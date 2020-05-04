@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#4DB6AC"
+    android:fitsSystemWindows="true"
+    tools:context=".Mahasiswa">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingTop="20dp"
+        android:paddingRight="24dp">
+
+        <ImageView android:src="@drawable/bg"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/nim"
+            android:hint="Nama"
+            android:inputType="text"
+            android:textColor="#fff"
+            android:textColorHint="#DFCFCF"
+            android:backgroundTint="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/nama"
+            android:hint="NIM"
+            android:inputType="text"
+            android:textColor="#fff"
+            android:textColorHint="#DFCFCF"
+            android:backgroundTint="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/jk"
+            android:hint="Jenis Kelamin"
+            android:inputType="text"
+            android:textColor="#fff"
+            android:textColorHint="#DFCFCF"
+            android:backgroundTint="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/jurusan"
+            android:hint="Jurusan"
+            android:inputType="text"
+            android:textColor="#fff"
+            android:textColorHint="#DFCFCF"
+            android:backgroundTint="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/alamat"
+            android:hint="Alamat"
+            android:inputType="text"
+            android:textColor="#fff"
+            android:textColorHint="#DFCFCF"
+            android:backgroundTint="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:background="#009688"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:onClick="addtodo"
+            android:textColor="#fff"
+            android:text="Add"/>
+
+        <ListView
+            android:layout_below="@+id/logout"
+            android:id="@+id/todolist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dbuas"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.google.firebase:firebase-database:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\1bef8c0be2efcb4b63fa348fb82cf53d\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+11-->[com.google.firebase:firebase-database:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\1bef8c0be2efcb4b63fa348fb82cf53d\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\1bef8c0be2efcb4b63fa348fb82cf53d\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\1bef8c0be2efcb4b63fa348fb82cf53d\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:22-64
+13
+14    <application
+14-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:5:5-29:19
+15        android:name="androidx.multidex.MultiDexApplication"
+16        android:allowBackup="true"
+16-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:6:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\478b79604eaaf934858ce3739dce1708\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:7:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:8:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:9:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:10:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:11:9-40
+25        <activity android:name="com.example.dbuas.Buku" >
+25-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:12:9-18:20
+25-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:12:19-39
+26            <intent-filter>
+26-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:13:13-17:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:14:17-69
+27-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:14:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:16:17-77
+29-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:16:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity android:name="com.example.dbuas.signup" />
+32-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:19:9-44
+32-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:19:19-41
+33        <activity android:name="com.example.dbuas.Mahasiswa" />
+33-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:20:9-47
+33-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:20:19-44
+34        <activity android:name="com.example.dbuas.MainActivity" />
+34-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:21:9-50
+34-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:21:19-47
+35        <activity android:name="com.example.dbuas.login" >
+35-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:22:9-24:20
+35-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:22:19-40
+36        </activity>
+37
+38        <meta-data
+38-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:26:9-28:57
+39            android:name="preloaded_fonts"
+39-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:27:13-43
+40            android:resource="@array/preloaded_fonts" />
+40-->C:\Users\ASUS\AndroidStudioProjects\Dbuas\app\src\main\AndroidManifest.xml:28:13-54
+41
+42        <activity
+42-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f25b8b7d0c757fc87cd5769ef219d6ef\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+43            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+43-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f25b8b7d0c757fc87cd5769ef219d6ef\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+44            android:excludeFromRecents="true"
+44-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f25b8b7d0c757fc87cd5769ef219d6ef\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+45            android:exported="true"
+45-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f25b8b7d0c757fc87cd5769ef219d6ef\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+46            android:launchMode="singleTask"
+46-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f25b8b7d0c757fc87cd5769ef219d6ef\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+47            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+47-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f25b8b7d0c757fc87cd5769ef219d6ef\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+48            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+48-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f25b8b7d0c757fc87cd5769ef219d6ef\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+49
+50        <service
+50-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f25b8b7d0c757fc87cd5769ef219d6ef\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+51            android:name="com.google.firebase.components.ComponentDiscoveryService"
+51-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f25b8b7d0c757fc87cd5769ef219d6ef\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+52            android:exported="false" >
+52-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f25b8b7d0c757fc87cd5769ef219d6ef\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+53            <meta-data
+53-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f25b8b7d0c757fc87cd5769ef219d6ef\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+54                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+54-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f25b8b7d0c757fc87cd5769ef219d6ef\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f25b8b7d0c757fc87cd5769ef219d6ef\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+56            <meta-data
+56-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d4809642d6bab4f4bafc46a85c18b6f1\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:15:13-17:85
+57                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+57-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d4809642d6bab4f4bafc46a85c18b6f1\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:16:17-111
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d4809642d6bab4f4bafc46a85c18b6f1\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:17:17-82
+59        </service>
+60
+61        <activity
+61-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\49c5003c7c2dc12c54574091d5f2aae5\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+62            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+62-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\49c5003c7c2dc12c54574091d5f2aae5\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+63            android:exported="false"
+63-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\49c5003c7c2dc12c54574091d5f2aae5\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+64            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+64-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\49c5003c7c2dc12c54574091d5f2aae5\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+65
+66        <provider
+66-->[com.google.firebase:firebase-common:16.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f1c18ff3ca94cb61caa911514bb0599e\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+67            android:name="com.google.firebase.provider.FirebaseInitProvider"
+67-->[com.google.firebase:firebase-common:16.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f1c18ff3ca94cb61caa911514bb0599e\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+68            android:authorities="com.example.dbuas.firebaseinitprovider"
+68-->[com.google.firebase:firebase-common:16.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f1c18ff3ca94cb61caa911514bb0599e\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+69            android:exported="false"
+69-->[com.google.firebase:firebase-common:16.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f1c18ff3ca94cb61caa911514bb0599e\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+70            android:initOrder="100" />
+70-->[com.google.firebase:firebase-common:16.0.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f1c18ff3ca94cb61caa911514bb0599e\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+71
+72        <meta-data
+72-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2753e84332518005d9b1309c6914c91b\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2753e84332518005d9b1309c6914c91b\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\2753e84332518005d9b1309c6914c91b\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+75    </application>
+76
+77</manifest>

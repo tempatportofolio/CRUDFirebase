@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">721802878571-6t663jon8pldvb2kv4kvnrsv23ce70dj.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://dbuas12.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">721802878571</string>
+    <string name="google_api_key" translatable="false">AIzaSyDXyOs2Y56X0LAcysDEDgjYqZs1AfHhjNU</string>
+    <string name="google_app_id" translatable="false">1:721802878571:android:804e2a2023e6cd44659b2e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDXyOs2Y56X0LAcysDEDgjYqZs1AfHhjNU</string>
+    <string name="google_storage_bucket" translatable="false">dbuas12.appspot.com</string>
+    <string name="project_id" translatable="false">dbuas12</string>
+</resources>
